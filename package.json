@@ -1,0 +1,13 @@
+{
+  "name": "revealjs-slide-boilerplate",
+  "version": "1.0.0",
+  "author": "Bob Wei <bob61016@gmail.com>",
+  "description": "A reveal.js slide boilerplate",
+  "license": "MIT",
+  "scripts": {
+    "deploy:gh-pages": "gh-pages -d src"
+  },
+  "dependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}

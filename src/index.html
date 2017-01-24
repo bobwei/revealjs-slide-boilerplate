@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Reveal.js Slide Boilerplate</title>
+    <link rel="stylesheet" href="assets/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="assets/reveal.js/css/theme/night.css">
+    <link rel="stylesheet" href="assets/reveal.js/lib/css/zenburn.css">
+    <link rel="stylesheet" href="custom.css">
+  </head>
+  <body>
+    <div class="reveal">
+    <div class="slides">
+      <section>
+        <h2>Reveal.js Slide Boilerplate</h2>
+        <h5>Subtitle</h5>
+        <p>
+          <a href="https://github.com/bobwei/reveal.js-slide-boilerplate" target="_blank">
+            https://github.com/bobwei/reveal.js-slide-boilerplate
+          </a>
+        </p>
+      </section>
+    </div>
+    </div>
+    <script src="assets/reveal.js/lib/js/head.min.js"></script>
+    <script src="assets/reveal.js/js/reveal.js"></script>
+    <script>
+    Reveal.initialize({
+      history: true,
+      dependencies: [
+      // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+      { src: 'assets/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+      // Interpret Markdown in <section> elements
+      { src: 'assets/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'assets/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+      // Syntax highlight for <code data-trim data-noescape class="language-js"> elements
+      { src: 'assets/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+      // Zoom in and out with Alt+click
+      { src: 'assets/reveal.js/plugin/zoom-js/zoom.js', async: true },
+
+      // Speaker notes
+      { src: 'assets/reveal.js/plugin/notes/notes.js', async: true },
+
+      // MathJax
+      { src: 'assets/reveal.js/plugin/math/math.js', async: true }
+      ]
+    });
+  </script>
+  </body>
+</html>
