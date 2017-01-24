@@ -1,5 +1,6 @@
 # Reveal.js Slide Boilerplate
 
-This is a reveal.js slide boilerplate fork from [http://www.chetcorcos.com/functional-decarative-javascript-preso](http://www.chetcorcos.com/functional-decarative-javascript-preso)
+This is a reveal.js slide boilerplate.
 
-![](./screenshot.jpg)
+Reference
+- [http://www.chetcorcos.com/functional-decarative-javascript-preso](http://www.chetcorcos.com/functional-decarative-javascript-preso)
